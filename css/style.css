@@ -2,16 +2,16 @@
 
 /* link the web font used for the level 1 heading here */
 
-<link href="https://
+<link rel="stylesheet" type="text/css" href="fonts/Baskerville.ttc">
 
 }
 
 /*////////// Global Styles //////////*/
 
 body {
-	background: #F3EBE9;
+	background-color: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif;
+	font-family: 'Times New Roman';
 }
 
 .wrapper {
@@ -23,10 +23,22 @@ body {
 
 /* Write all remaining styles here */
 
+body {
+	background-color: #F3EBE9;
+}
 
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgb(147, 174, 166);
+    margin: 1em 0;
+    padding: 0;
+}
 
 #footer {
 	text-align: right;
+	font-size: 12px;
 }
 
 .clearfix:after {
@@ -40,5 +52,32 @@ body {
 
 
 #zetsy_logo {
-	color:
+	color: rgb(147, 174, 166);
+	font-family: Baskerville, serif;
+	font-size: 80px;
+}
+
+#necklace {
+	border: solid 5px;
+	color: rgb(147, 174, 166);
+}
+
+p {
+	color: rgb(85, 85, 85);
+	font-size: 16px;
+	font-family: 'Times New Roman', serif;
+}
+
+.text {
+	color: rgb(111, 127, 122);
+}
+
+.media_logo {
+	border: solid 5px;
+	color: rgb(204, 204, 204);
+}
+
+h2 {
+	font-size: 32px;
+	font-family: 'Times New Roman', serif;
 }
