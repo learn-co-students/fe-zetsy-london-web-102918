@@ -2,12 +2,16 @@
 
 /* link the web font used for the level 1 heading here */
 
+<link href="https://
+
+}
+
 /*////////// Global Styles //////////*/
 
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +22,23 @@ body {
 }
 
 /* Write all remaining styles here */
+
+
+
+#footer {
+	text-align: right;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
+
+
+#zetsy_logo {
+	color:
+}
